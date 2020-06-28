@@ -12,7 +12,7 @@ const App = () => (
   <div className="App">
     <Header />
     <SearchBar />
-    <Categories>
+    <Categories title="Mi lista">
       <Carousel>
         <CarouselItem />
       </Carousel>
