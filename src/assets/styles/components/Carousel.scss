@@ -1,5 +1,6 @@
 .carousel {
   overflow: scroll;
+  overflow-y: hidden;
   padding-left: 30px;
   width: 100%;
   position: relative;
@@ -21,6 +22,6 @@
 
 .carousel__container:hover .carousel-item:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   opacity: 1;
 }
